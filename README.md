@@ -22,24 +22,25 @@ A simple library for creating circular progressbars for Android.
 
 ```xml
       <com.emredavarci.floatingactionmenu.FloatingActionMenu
+        xmlns:fam="http://schemas.android.com/apk/res-auto"
         android:id="@+id/floatingMenu"
         android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_height="80dp"                // Important! Height and radius values should be same!
-        app:radius="80dp"                 // Important! Height and radius values should be same!
-        app:shadowWidth="2dp" 
-        app:scaleRatio="3"
-        app:duration="200"
-        app:bgColor="#4ad6bd"
-        app:menuIconRotateAngle="225"
-        app:menuIconWidth="30dp"
-        app:menuIconHeight="30dp"
-        app:menuIcon="@drawable/default_menu_icon"
-        app:firstActionIcon="@drawable/fav_icon"
-        app:secondActionIcon="@drawable/share_icon"
-        app:thirdActionIcon="@drawable/search_icon"
-        app:fourthActionIcon="@drawable/settings_icon">
+        fam:radius="80dp"                 // Important! Height and radius values should be same!
+        fam:shadowWidth="2dp" 
+        fam:scaleRatio="3"
+        fam:duration="200"
+        fam:bgColor="#4ad6bd"
+        fam:menuIconRotateAngle="225"
+        fam:menuIconWidth="30dp"
+        fam:menuIconHeight="30dp"
+        fam:menuIcon="@drawable/default_menu_icon"
+        fam:firstActionIcon="@drawable/fav_icon"
+        fam:secondActionIcon="@drawable/share_icon"
+        fam:thirdActionIcon="@drawable/search_icon"
+        fam:fourthActionIcon="@drawable/settings_icon">
     </com.emredavarci.floatingactionmenu.FloatingActionMenu>
 ```
 
