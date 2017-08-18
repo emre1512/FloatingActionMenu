@@ -27,7 +27,7 @@ A simple library for creating circular progressbars for Android.
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_height="80dp"                // Important! Height and radius values should be same!
-        app:radius="80dp"               // Important! Height and radius values should be same!
+        app:radius="80dp"                 // Important! Height and radius values should be same!
         app:shadowWidth="2dp" 
         app:scaleRatio="3"
         app:duration="200"
@@ -54,37 +54,37 @@ You can modify it programmatically if you want
 <b>Setters</b>
 
 ```java
-	menu.setRadius(radius); 		// set radius of button
-	menu.setShadowWitdth(2); 			// set shadow width
-	menu.setScaleRatio(3); 		// set scale ratio of button
-	menu.setDuration(300); 		// set duration of opening animation
-	menu.setBgColor("#FF6FD99D"); 	// set background color of button
-	menu.setMenuIconRotateAngle(225); 	// set menu icon rotate angle
-	menu.setMenuIconWidth(30); 	// set menu icon width
-	menu.setMenuIconHeight(30); 		// set menu icon height
-	menu.setMenuIcon(R.drawable.menu_icon); 			// set menu icon
-	menu.setFirstActionIcon(R.drawable.first_icon);  // set first action icon
-  menu.setSecondActionIcon(R.drawable.second_icon); // set second action icon
-  menu.setThirdActionIcon(R.drawable.third_icon); // set third action icon
-  menu.setFourthActionIcon(R.drawable.fourth_icon);  // set fourth action icon
+menu.setRadius(radius); 		 // set radius of button
+menu.setShadowWitdth(2); 			// set shadow width
+menu.setScaleRatio(3); 		    // set scale ratio of button
+menu.setDuration(300); 		    // set duration of opening animation
+menu.setBgColor("#FF6FD99D"); 	    // set background color of button
+menu.setMenuIconRotateAngle(225); 	  // set menu icon rotate angle
+menu.setMenuIconWidth(30); 	   // set menu icon width
+menu.setMenuIconHeight(30); 		 // set menu icon height
+enu.setMenuIcon(R.drawable.menu_icon); 	// set menu icon
+menu.setFirstActionIcon(R.drawable.first_icon);  // set first action icon
+menu.setSecondActionIcon(R.drawable.second_icon);   // set second action icon
+menu.setThirdActionIcon(R.drawable.third_icon);   // set third action icon
+menu.setFourthActionIcon(R.drawable.fourth_icon);    // set fourth action icon
 ```
 
 <b>Getters</b>
 
 ```java
-  menu.getRadius();     // get radius of button
-  menu.getShadowWitdth();      // get shadow width
-  menu.getScaleRatio();    // get scale ratio of button
-  menu.getDuration();    // get duration of opening animation
-  menu.getBgColor();   // get background color of button
-  menu.getMenuIconRotateAngle();   // get menu icon rotate angle
-  menu.getMenuIconWidth();  // get menu icon width
-  menu.getMenuIconHeight();     // get menu icon height
-  menu.getMenuIcon();       // get menu icon
-  menu.getFirstActionIcon();  // get first action icon
-  menu.getSecondActionIcon(); // get second action icon
-  menu.getThirdActionIcon(); // get third action icon
-  menu.getFourthActionIcon();  // get fourth action icon
+menu.getRadius();     // get radius of button
+menu.getShadowWitdth();      // get shadow width
+menu.getScaleRatio();    // get scale ratio of button
+menu.getDuration();    // get duration of opening animation
+menu.getBgColor();   // get background color of button
+menu.getMenuIconRotateAngle();   // get menu icon rotate angle
+menu.getMenuIconWidth();  // get menu icon width
+menu.getMenuIconHeight();     // get menu icon height
+menu.getMenuIcon();       // get menu icon
+menu.getFirstActionIcon();  // get first action icon
+menu.getSecondActionIcon(); // get second action icon
+menu.getThirdActionIcon(); // get third action icon
+menu.getFourthActionIcon();  // get fourth action icon
 ```
 
 ## LICENSE
