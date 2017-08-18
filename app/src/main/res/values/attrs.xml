@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionCircle">
+        <attr name="scaleRatio" format="float"/>
+        <attr name="duration" format="integer"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="menuIconRotateAngle" format="integer"/>
+        <attr name="menuIconHeight" format="dimension"/>
+        <attr name="menuIconWidth" format="dimension"/>
+        <attr name="shadowWidth" format="dimension"/>
+        <attr name="menuIcon" format="integer"/>
+        <attr name="firstActionIcon" format="integer"/>
+        <attr name="secondActionIcon" format="integer"/>
+        <attr name="thirdActionIcon" format="integer"/>
+        <attr name="fourthActionIcon" format="integer"/>
+    </declare-styleable>
+</resources>

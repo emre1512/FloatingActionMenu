@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emredavarci.floatingactionmenu.MainActivity"
+    android:id="@+id/root">
+
+
+    <com.emredavarci.floatingactionmenu.FloatingActionMenu
+        android:id="@+id/floatingMenu"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="80dp"
+        app:radius="80dp"
+        app:shadowWidth="2dp"
+        app:scaleRatio="3"
+        app:duration="200"
+        app:bgColor="#4ad6bd"
+        app:menuIconRotateAngle="225"
+        app:menuIconWidth="30dp"
+        app:menuIconHeight="30dp"
+        app:menuIcon="@drawable/default_menu_icon"
+        app:firstActionIcon="@drawable/fav_icon"
+        app:secondActionIcon="@drawable/share_icon"
+        app:thirdActionIcon="@drawable/search_icon"
+        app:fourthActionIcon="@drawable/settings_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+    </com.emredavarci.floatingactionmenu.FloatingActionMenu>
+
+
+</RelativeLayout>
