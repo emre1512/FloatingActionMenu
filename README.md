@@ -47,6 +47,12 @@ A simple library for creating circular progressbars for Android.
 
 ```java
 	FloatingActionMenu menu = (FloatingActionMenu) findViewById(R.id.actionmenu);
+  menu.setClickEvent(new FloatingActionMenu.ClickEvent() {
+            @Override
+            public void onClick(int index) {
+                Log.d("TAG", String.valueOf(index)); // index of clicked menu item
+            }
+        });
 ```
 
 You can modify it programmatically if you want
